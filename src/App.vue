@@ -1,13 +1,14 @@
 <template>
-  <div class="realative">
+  <div class="h-screen">
     <Header />
     <Main
       :translate="selected == '' ? this.flags[0].translations : selected"
       v-on:handler="handleClick"
     />
+    
 
     <footer
-      class="absolute bottom-1 flex h-16 w-screen items-center justify-evenly bg-white"
+      class="flex h-16 w-screen items-center justify-evenly"
     >
       <Botao v-for="item in flags" :idioma="item" @tradutor="handleClick" />
       <p>{{ item }}</p>
@@ -21,6 +22,9 @@ import Header from "./components/Header/index.vue";
 import Footer from "./components/Footer/index.vue";
 import Main from "./components/Main/index.vue";
 import Botao from "./components/Botao/index.vue";
+
+
+
 
 export default {
   data() {
@@ -57,6 +61,7 @@ export default {
     Main,
     Footer,
     Botao,
+    
   },
 
   methods: {

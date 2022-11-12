@@ -1,10 +1,17 @@
 <template>
-  <section class="flex h-full w-screen items-center justify-center">
-    <h1 class="text-[#EDEDED]">{{ translate }}</h1>
+  <section class="flex h-[calc(100vh-128px)] w-screen items-center flex-col">
+    <h1 class="text-[#EDEDED] 
+    text-center
+     text-lg w-[550px]
+     pt-[60px]">{{ translate }}</h1>
+     <Techs/>
   </section>
 </template>
 
 <script>
+import Techs from "../Techs/index.vue";
+
+
 export default {
   props: {
     translate: "",
@@ -12,5 +19,8 @@ export default {
   data() {
     return {};
   },
+  components: {
+    Techs
+  }
 };
 </script>
