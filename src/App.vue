@@ -8,7 +8,7 @@
     
 
     <footer
-      class="flex h-16 w-screen items-center justify-evenly"
+      class="gap-[50px] flex h-16 w-screen items-center justify-center"
     >
       <Botao v-for="item in flags" :idioma="item" @tradutor="handleClick" />
       <p>{{ item }}</p>

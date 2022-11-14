@@ -1,5 +1,5 @@
 <template>
-  <footer class="flex h-16 w-screen items-center justify-evenly">
+  <footer class="flex h-16 w-screen items-center justify-center bg-white">
     <Botao
       v-for="(item, index) in language"
       :idioma="item"
