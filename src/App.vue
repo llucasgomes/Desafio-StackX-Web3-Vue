@@ -33,21 +33,21 @@ export default {
         {
           name: "Brasil",
           idioma: "Brasil",
-          flag: "../assets/images/flag-brazil.png",
+          flag: "https://raw.githubusercontent.com/llucasgomes/Desafio-StackX-Web3-Vue/main/src/assets/images/flag-brazil.png",
           translations:
             "Olá, meu nome é Lucas Gomes e eu sou Desenvolvedor Front-End, Tecnologias que tenho experiência:",
         },
         {
           name: "Espanha",
           idioma: "Espanhol",
-          flag: ".src/assets/images/flag-spain.png",
+          flag: "https://raw.githubusercontent.com/llucasgomes/Desafio-StackX-Web3-Vue/main/src/assets/images/flag-spain.png",
           translations:
             "Hola, mi nombre es Lucas Gomes y soy Desarrollador Front-End, Tecnologías en las que tengo experiencia:",
         },
         {
           name: "Estados Unidos",
           idioma: "Inglês",
-          flag: "https://raw.githubusercontent.com/llucasgomes/Desafio-StackX-Web3-Vue/main/src/assets/images/flag-brazil.png",
+          flag: "https://raw.githubusercontent.com/llucasgomes/Desafio-StackX-Web3-Vue/main/src/assets/images/flag-united-states.png",
           translations:
             "Hello, my name is Lucas Gomes and I am a Front-End Developer, Technologies that I have experience:",
         },
