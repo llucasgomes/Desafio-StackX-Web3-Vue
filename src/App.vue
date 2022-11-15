@@ -33,7 +33,7 @@ export default {
         {
           name: "Brasil",
           idioma: "Brasil",
-          flag: "../../assets/images/flag-brazil.png",
+          flag: "./assets/images/flag-brazil.png",
           translations:
             "Olá, meu nome é Lucas Gomes e eu sou Desenvolvedor Front-End, Tecnologias que tenho experiência:",
         },
